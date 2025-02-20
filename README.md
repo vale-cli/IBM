@@ -1,5 +1,5 @@
 # IBM
-A Vale-compatible implementation of [IBM's Developer Editorial Style Guide](https://www.ibm.com/developerworks/library/styleguidelines/index.html).
+A [Vale-compatible](https://github.com/errata-ai/vale) linter style that replicates the [IBM's Developer Editorial Style Guide](https://web.archive.org/web/20210126213122/https://www.ibm.com/developerworks/library/styleguidelines/index.html).
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ MinAlertLevel = warning # suggestion, warning or error
 BasedOnStyles = IBM
 ```
 
-See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
+See the [documentation](https://vale.sh/) for more information.
 
 ## Repository Structure
 
@@ -37,5 +37,5 @@ See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
 
 |   Check    |                    Implementation(s)                   |
 |:------------:|:---------------------------------------------------:|
-| [`existence`](https://errata-ai.github.io/vale/styles/#existence)  | [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml) |
-| [`substitution`](https://errata-ai.github.io/vale/styles/#substitution)  | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |
+| [`existence`](https://vale.sh/docs/checks/existence)  | [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml) |
+| [`substitution`](https://vale.sh/docs/checks/substitution)  | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |

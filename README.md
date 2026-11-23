@@ -1,11 +1,11 @@
 # IBM
-A [Vale-compatible](https://github.com/errata-ai/vale) linter style that replicates the [IBM's Developer Editorial Style Guide](https://web.archive.org/web/20210126213122/https://www.ibm.com/developerworks/library/styleguidelines/index.html).
+A [Vale-compatible](https://github.com/vale-cli/vale) linter style that replicates the [IBM's Developer Editorial Style Guide](https://web.archive.org/web/20210126213122/https://www.ibm.com/developerworks/library/styleguidelines/index.html).
 
 ## Getting Started
 
 > :exclamation: IBM requires Vale >= **1.7.0**. :exclamation:
 
-Download the [latest release](https://github.com/errata-ai/IBM/releases), copy the "IBM" directory to your `StylesPath`, and include it in your configuration file:
+Download the [latest release](https://github.com/vale-cli/IBM/releases), copy the "IBM" directory to your `StylesPath`, and include it in your configuration file:
 
 ```ini
 # This goes in a file named either `.vale.ini` or `_vale.ini`.
@@ -23,13 +23,13 @@ See the [documentation](https://vale.sh/) for more information.
 ## Repository Structure
 
 <dl>
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/IBM"><code>/IBM</code></a></dt>
+  <dt><a href="https://github.com/vale-cli/IBM/tree/master/IBM"><code>/IBM</code></a></dt>
   <dd>The <a href="http://yaml.org/">YAML</a>-based rule implementations that make up our style.</dd>
 
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/fixtures"><code>/fixtures</code></a></dt>
+  <dt><a href="https://github.com/vale-cli/IBM/tree/master/fixtures"><code>/fixtures</code></a></dt>
   <dd>The individual unit tests. Each directory should be named after a rule found in <code>/Microsoft</code> and include its own <code>.vale.ini</code> file that isolates its target rule.</dd>
 
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/features"><code>/features</code></a></dt>
+  <dt><a href="https://github.com/vale-cli/IBM/tree/master/features"><code>/features</code></a></dt>
   <dd>The <a href="https://docs.cucumber.io/cucumber/step-definitions/">Cucumber Step Definitions</a> we use to test our fixtures. Essentially, we use the <a href="https://github.com/cucumber/aruba">aruba</a> framework to test Vale's output after running it on each of our fixture directories.</dd>
 </dl>
 
@@ -37,5 +37,5 @@ See the [documentation](https://vale.sh/) for more information.
 
 |   Check    |                    Implementation(s)                   |
 |:------------:|:---------------------------------------------------:|
-| [`existence`](https://vale.sh/docs/checks/existence)  | [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml) |
-| [`substitution`](https://vale.sh/docs/checks/substitution)  | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |
+| [`existence`](https://vale.sh/docs/checks/existence)  | [`Terms.yml`](https://github.com/vale-cli/IBM/blob/master/IBM/Terms.yml) |
+| [`substitution`](https://vale.sh/docs/checks/substitution)  | [`Checkusage.yml`](https://github.com/vale-cli/Microsoft/blob/master/Microsoft/Checkusage.yml) |

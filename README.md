@@ -6,6 +6,7 @@
 > [Std](https://github.com/vale-cli/Std): `Std.Abbreviations.Latin` and
 > `Std.Readability.SentenceLength`. Browse maintained styles at
 > [vale.sh/explorer](https://vale.sh/explorer).
+
 A [Vale-compatible](https://github.com/vale-cli/vale) linter style that replicates the [IBM's Developer Editorial Style Guide](https://web.archive.org/web/20210126213122/https://www.ibm.com/developerworks/library/styleguidelines/index.html).
 
 ## Getting Started
